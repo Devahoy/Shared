@@ -1,6 +1,6 @@
 ## Shared
 
-**Shared** is a Simple SharedPreference, annoyed when use SharedPreferences to save data.
+**Shared** is a Simple Android SharedPreferences, annoyed when use SharedPreferences to save data.
 You must declare `SharedPreference.Editor()` and then save with `apply()` or `commit()` every time.
 This library is save your time.
 
