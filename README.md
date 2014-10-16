@@ -6,12 +6,12 @@ This library is save your time.
 
 ## Installation
 
-    1. Download [shared-0.0.1.aar](https://github.com/Devahoy/Shared/releases/download/v0.0.1/shared-0.0.1.aar) and save to libs folder.
-    2. Open `build.gradle` then add dependencies
+1. Download [shared-0.0.1.aar](https://github.com/Devahoy/Shared/releases/download/v0.0.1/shared-0.0.1.aar) and save to libs folder.
+2. Open `build.gradle` then add dependencies
 
-    compile fileTree(dir: 'libs', include: ['*.jar'])
+    compile fileTree(dir: 'libs', include: ['*.aar'])
 
-    or
+or
 
     compile files('libs/shared-0.0.1.aar')
 
