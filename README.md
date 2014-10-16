@@ -6,7 +6,7 @@ This library is save your time.
 
 ## Installation
 
-1. Download [shared-0.0.1.aar](https://github.com/Devahoy/Shared/releases/download/v0.0.1/shared-0.0.1.jar) and save to libs folder
+1. Download [shared-0.0.1.jar](https://github.com/Devahoy/Shared/releases/download/v0.0.1/shared-0.0.1.jar) and save to libs folder
 
 2. Open `build.gradle` then add dependencies
 
