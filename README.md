@@ -1,4 +1,4 @@
-## Shared
+## Shared [![Build Status](https://travis-ci.org/Devahoy/Shared.svg?branch=master)](https://travis-ci.org/Devahoy/Shared)
 
 **Shared** is a Simple Android SharedPreferences, annoyed when use SharedPreferences to save data.
 Why you must declare `SharedPreference.Editor()` and then save with `apply()` or `commit()` every time.
