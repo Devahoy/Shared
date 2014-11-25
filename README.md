@@ -36,7 +36,7 @@ shared.remove(key);
 
 ## License
 
-    Copyright 2014 DevAhoy
+    Copyright 2014 DevAhoya
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
