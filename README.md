@@ -4,18 +4,15 @@
 Why you must declare `SharedPreference.Editor()` and then save with `apply()` or `commit()` every time.
 This library is save your time.
 
-## Installation
+## Download
 
-1. Download [shared-0.0.1.jar](https://github.com/Devahoy/Shared/releases/download/v0.0.1/shared-0.0.1.jar) and save to libs folder
+Download [shared-0.0.1.jar](https://github.com/Devahoy/Shared/releases/download/v0.0.1/shared-0.0.1.jar) and save to libs folder
 
-2. Open `build.gradle` then add dependencies
+or Gradle
 
-`compile fileTree(dir: 'libs', include: ['*.jar'])`
-
-or
-
-`compile files('libs/shared-0.0.1.jar')`
-
+    dependencies {
+        compile 'com.devahoy:shared:0.0.1'
+    }
 
 ## Usage
 
