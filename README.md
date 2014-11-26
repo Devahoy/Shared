@@ -34,7 +34,7 @@ shared.remove(key);
 ## Example
 
 ```java
-Shared shared=  new Shared(this, "MyData");
+Shared shared = new Shared(this, "MyData");
 
 // Save data.
 shared.save("name", "Hello Kitty");
