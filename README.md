@@ -18,17 +18,38 @@ or Gradle
 
 ```java
 // this : Context,
-// name : a Preference file name.
+// name : String, a SharedPreferences file name.
 Shared shared = new Shared(this, name);
 
-// save data
+// Save data
 shared.save(key, value);
 
-// get data
+// Get data
 shared.get(key, value);
 
-// remove data
+// Remove data
 shared.remove(key);
+```
+
+## Example
+
+```java
+Shared shared=  new Shared(this, "MyData");
+
+// Save data.
+shared.save("name", "Hello Kitty");
+shared.save("age", 40);
+shared.save("isAlive", true);
+
+// Get data.
+String name = shared.getString("name", "n/a");
+int age = shared.getInt("age", 0);
+boolean isAlive = shared.getBoolean("isAlive", false);
+
+// Delete data.
+shared.remove("name");
+shared.remove("age");
+shared.remove("isAlive");
 ```
 
 ## License
